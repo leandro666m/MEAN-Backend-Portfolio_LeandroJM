@@ -1,0 +1,244 @@
+
+  {
+    "nombre": "Leandro Javier Martinez",
+    "comentario": "Soy un apasionado de la informática, con más de 10 años de experiencia en empresas del sector público y privado. Título de grado, Técnico programador, a pasos de la Licenciatura en Sistemas y Diseñador gráfico aficionado, con conocimientos en muchas áreas y experiencia proporcionando soporte y asistencia excepcional a los usuarios. Actualmente dirijo un equipo compuesto por siete personas y como siempre me apasionó estoy retomando en el sector de desarrollo web.",
+    "ciudad": "Concordia E.Ríos",
+    "email": "leandro666m@gmail.com",
+    "telefono": "+54 0345 154017227",
+    "titulo": "Programador de Sistemas",
+    "educacion": [
+      {
+        "descripcion": "La tecnicatura superior en PC es el título intermedio de 2 años de duración en la carrera de Técnico Analista Programador, éste título acorda a la articulación con la carrera de Lic. en Sistemas en la UNNE en la ciudad de Corrientes.",
+        "fecha": "2005 - 2006",
+        "lugar": "Instituto Superior de Curuzú Cuatiá\r\narticulación con FaCENa - UNNE",
+        "titulo": "Técnico superior en PC",
+        "url": "https://iscuruzucuatia-crr.infd.edu.ar/sitio/",
+        "escurso": false
+      },
+      {
+        "descripcion": "Programador de Sistemas es el título intermedio de 3 años de duración en la carrera Licenciatura en Sistemas.",
+        "fecha": "2007 - 2012",
+        "lugar": "Facultad de Ciencias de la Administración - Universidad Nacional de Entre Ríos",
+        "titulo": "Programador de Sistemas",
+        "url": "https://www.fcad.uner.edu.ar/",
+        "escurso": false
+      },
+      {
+
+        "descripcion": "Escuela de Informática y Sistemas - VII Jornadas de Administración e Informática",
+        "fecha": "2009",
+        "lugar": "FCAD-UNER",
+        "titulo": "Disfrutando la programación web: Ruby o Rails",
+        "url": null,
+        "escurso": true
+      },
+      {
+        "descripcion": null,
+        "fecha": "2010",
+        "lugar": "FCAD - UNER",
+        "titulo": "Fundamentos para Desarrollo en Web",
+        "url": null,
+        "escurso": true
+      },
+      {
+        "descripcion": null,
+        "fecha": "2012",
+        "lugar": "FCAD - UNER",
+        "titulo": "Linux-Apache-MySql-PHP",
+        "url": null,
+        "escurso": true
+      },
+      {
+        "descripcion": "Escuela CACIC Congreso Argentino de Ciencias de la Informática y la Computación",
+        "fecha": "2012",
+        "lugar": "Universidad Nacional de Jujuy",
+        "titulo": "Centro de cómputos: tecnologías e implementaciones en sistemas de tipo UNIX",
+        "url": null,
+        "escurso": true
+      },
+      {
+        "descripcion": null,
+        "fecha": "2013",
+        "lugar": "Oracle y Fundacion PROYDESA",
+        "titulo": "Base de Datos Oracle 10g",
+        "url": null,
+        "escurso": true
+      },
+      {
+        "descripcion": null,
+        "fecha": "2014",
+        "lugar": "FCAD - UNER",
+        "titulo": "POO - Patrones de Diseño",
+        "url": null,
+        "escurso": true
+      },
+      {
+        "descripcion": null,
+        "fecha": "2014",
+        "lugar": "FCAD - UNER",
+        "titulo": "Programación declarativa - Leanguaje Prolog",
+        "url": null,
+        "escurso": true
+      },
+      {
+        "descripcion": null,
+        "fecha": "2014",
+        "lugar": "FCAD - UNER",
+        "titulo": "Introducción a la programación en Phyton",
+        "url": null,
+        "escurso": true
+      },
+      {
+        "descripcion": null,
+        "fecha": "2014",
+        "lugar": "FCAD - UNER",
+        "titulo": "Software Libre y GNU Linux",
+        "url": null,
+        "escurso": true
+      },
+      {
+        "descripcion": null,
+        "fecha": "2014",
+        "lugar": "FCAD - UNER",
+        "titulo": "Conceptos de Arquitecturas Grid",
+        "url": null,
+        "escurso": true
+      },
+      {
+        "descripcion": null,
+        "fecha": "2014",
+        "lugar": "FCAD - UNER",
+        "titulo": "Métricas de Software",
+        "url": null,
+        "escurso": true
+      },
+      {
+        "descripcion": null,
+        "fecha": "2021",
+        "lugar": "Universidad Siglo XXI",
+        "titulo": "BlockChain: Fundamentos de una tecnología Disruptiva",
+        "url": "https://aplv.21.edu.ar/",
+        "escurso": true
+      },
+      {
+        "descripcion": null,
+        "fecha": "2021",
+        "lugar": "Polo Binacional Salto Grande",
+        "titulo": "Uso de Blockchain en la cadena de valor",
+        "url": null,
+        "escurso": true
+      },
+      {
+        "descripcion": null,
+        "fecha": "2022",
+        "lugar": "Global Mentoring",
+        "titulo": "Universidad Java",
+        "url": "http://globalmentoring.com.mx/",
+        "escurso": true
+      },
+      {
+        "descripcion": null,
+        "fecha": "2022",
+        "lugar": "Global Mentoring",
+        "titulo": "Universidad Angular",
+        "url": "http://globalmentoring.com.mx/",
+        "escurso": true
+      },
+      {
+        "descripcion": null,
+        "fecha": "2022",
+        "lugar": "FalconMasters",
+        "titulo": "CSS Grid",
+        "url": "http://www.falconmasters.com/",
+        "escurso": true
+      },
+      {
+        "descripcion": null,
+        "fecha": "2022",
+        "lugar": "Polo Tecnológico Municipal - Mina Clavero-Córdoba",
+        "titulo": "Curso de Introduccion a NET 6.0 / C#",
+        "url": null,
+        "escurso": true
+      },
+      {
+        "descripcion": null,
+        "fecha": "2021",
+        "lugar": "Ministerio de Educacion",
+        "titulo": "Excel 2013 Avanzado: Funciones Avanzadas",
+        "url": null,
+        "escurso": true
+      },
+      {
+        "descripcion": "#Yo Programo-Programación Web Full-Stack - Base de Datos MySQL - Backend: Spring Boot-Java - FrontEnd: Angular",
+        "fecha": "2021 - 2022",
+        "lugar": "INTI - Ministerio de Desarrollo Productivo",
+        "titulo": "Programación Web Full Stack",
+        "url": "https://argentinaprograma.inti.gob.ar/",
+        "escurso": true
+      }
+    ],
+    "experiencia": [
+      {
+        "descripcion": "Asistencia técnica al usuario y mantenimiento de la infraestructura informática - Hardware & Software - en el área División de Soporte técnico y al usuario - de la Dirección de Informática - Sec. de Economía y Hacienda",
+        "fecha": "Agosto 2014 - a la actualidad",
+        "lugar": "Municipalidad de Concordia",
+        "puesto": "Técnico Senior",
+        "url": null
+      },
+      {
+        "descripcion": "Asesoramiento y seguimiento de los alumnos becarios.",
+        "fecha": "2009 - 2016",
+        "lugar": "IN.AU.BE.PRO. Instituto Autárquico Becario Provincial",
+        "puesto": "Encargado Delegado de nivel universitario en la FCAD-UNER",
+        "url": "https://www.institutobecario.gov.ar/"
+      },
+      {
+        "descripcion": "Como aficionado, con conocimientos y experiencia proporcionando un soporte excepcional a los usuarios.",
+        "fecha": "2008 a la actualidad",
+        "lugar": "freelance",
+        "puesto": "Diseño gráfico",
+        "experiencia_persona": null,
+        "url": null
+      },
+      {
+        "descripcion": null,
+        "fecha": "2007 a la actualidad",
+        "lugar": "freelance",
+        "puesto": "Técnico informático en Hard & Soft",
+        "experiencia_persona": null,
+        "url": null
+      }
+    ],
+    "skills": [
+      {
+        "eshard": true,
+        "nombre": "Full Stack Web Angular + SpringBoot JAVA + MySQL",
+        "nivel": 50
+      },
+      {
+        "eshard": true,
+        "nombre": "Corel Draw + Photoshop + Figma",
+        "nivel": 80
+      },
+      {
+        "eshard": true,
+        "nombre": ".Net 2022 C# MVC",
+        "nivel": 40
+      },
+      {
+        "eshard": false,
+        "nombre": "Resolucion de problemas",
+        "nivel": 80
+      },
+      {
+        "eshard": false,
+        "nombre": "Aprendizaje rápido",
+        "nivel": 80
+      },
+      {
+        "eshard": false,
+        "nombre": "Liderazgo y trabajo en equipo",
+        "nivel": 80
+      }
+    ]
+  }
