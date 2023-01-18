@@ -7,7 +7,8 @@ const routes = require('./routes/persona');
 const app = express(); //* Creamos el servidor
 
 conectarDB();  //* Conectamos a la BD
-//Persona.create(  require("./data.json") ); //! Usar sólo la 1ra vez para que Cree el Documento(MEAN-portf....) y la Coleccion(personas)
+//const Persona = require('./models/Persona'); //! Usar sólo la 1ra vez para que Cree el Documento(MEAN-portf....) y la Coleccion(personas)
+//Persona.create(  require("./data.json") ); 
 
 // Middleware
 app.use( express.json() ); //se habilita para que se pueda enviar json a nuestra aplicacion

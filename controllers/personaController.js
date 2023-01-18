@@ -2,7 +2,7 @@
 const Persona = require("../models/Persona");
 
 //req POST
-exports.crearPersona = async (req, res) => {
+/* exports.crearPersona = async (req, res) => {
     console.log("PersonaController: crearPersona : ", req.body);
     try {
         //Creamos nuestra persona
@@ -16,8 +16,10 @@ exports.crearPersona = async (req, res) => {
         res.status(500).send('Hubo un error al crear.');
     }
 }
+*/
 
-//req GET
+
+//req GET  getPersonas
 exports.obtenerPersonas = async (req, res) => {
     try {
         const personas = await Persona.find();
@@ -30,7 +32,7 @@ exports.obtenerPersonas = async (req, res) => {
 }
 
 //req GET   /:id
-exports.obtenerPersona = async (req, res) => {
+/* exports.obtenerPersona = async (req, res) => {
     try {
         let producto = await Producto.findById(req.params.id);
 
@@ -45,6 +47,7 @@ exports.obtenerPersona = async (req, res) => {
         res.status(500).send('Hubo un error al actualizar.');
     }
 } 
+*/
 
 //req PUT   /:id
 exports.actualizarPersona = async (req, res) => {
