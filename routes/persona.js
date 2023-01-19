@@ -5,11 +5,11 @@ const router = express.Router();
 const personaController = require('../controllers/personaController');
 
 // persona
-router.post('/', personaController.crearPersona );
-router.get('/getPersonas', personaController.obtenerPersonas );
-router.put('/:id', personaController.actualizarPersona );
-router.get('/:id', personaController.obtenerPersona );
-router.delete('/:id', personaController.eliminarPersona );
+//router.post('/', personaController.crearPersona );
+router.get('/getPersona', personaController.getPersona );
+router.put('/editar/:id', personaController.editarPersona );
+//router.get('/:id', personaController.obtenerPersona );
+//router.delete('/:id', personaController.eliminarPersona );
 module.exports = router;
 
 

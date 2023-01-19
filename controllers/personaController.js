@@ -19,8 +19,8 @@ const Persona = require("../models/Persona");
 */
 
 
-//req GET  getPersonas
-exports.obtenerPersonas = async (req, res) => {
+//req GET  router.get('/getPersona'
+exports.getPersona = async (req, res) => {
     try {
         const personas = await Persona.find();
         res.json(personas);
@@ -30,6 +30,30 @@ exports.obtenerPersonas = async (req, res) => {
         res.status(500).send('Hubo un error al consultar.');
     }
 }
+
+
+//req PUT   router.put('/editar/:id'
+exports.editarPersona = async (req, res) => {
+    try {
+        const {nombre } = req.body;
+        let persona = await Persona.findById(req.params.id);
+
+        if ( !persona ){
+            res.status(404).json( { msg: 'No existe la persona.'})
+        }
+
+        persona.nombre = nombre;
+
+        /*await persona.save();
+        res.json(persona);*/
+        persona = await Persona.findOneAndUpdate( { id: req.params.id }, persona, { new: true} );
+        res.json(persona);
+
+    } catch (error) {
+        console.log(error);
+        res.status(500).send('Hubo un error al actualizar.');
+    }
+} 
 
 //req GET   /:id
 /* exports.obtenerPersona = async (req, res) => {
@@ -49,32 +73,9 @@ exports.obtenerPersonas = async (req, res) => {
 } 
 */
 
-//req PUT   /:id
-exports.actualizarPersona = async (req, res) => {
-    try {
-        const {nombre, categoria, ubicacion, precio } = req.body;
-        let producto = await Producto.findById(req.params.id);
-
-        if ( !producto ){
-            res.status(404).json( { msg: 'No existe el producto.'})
-        }
-
-        producto.nombre = nombre;
-        producto.categoria = categoria;
-        producto.ubicacion = ubicacion;
-        producto.precio = precio;
-
-        producto = await Producto.findOneAndUpdate( { _id: req.params.id }, producto, { new: true} );
-        res.json(producto);
-
-    } catch (error) {
-        console.log(error);
-        res.status(500).send('Hubo un error al actualizar.');
-    }
-} 
 
 //req DELETE   /:id
-exports.eliminarPersona = async (req, res) => {
+/* exports.eliminarPersona = async (req, res) => {
     try {
         let producto = await Producto.findById(req.params.id);
 
@@ -89,4 +90,4 @@ exports.eliminarPersona = async (req, res) => {
         console.log(error);
         res.status(500).send('Hubo un error al actualizar.');
     }
-} 
+} */
