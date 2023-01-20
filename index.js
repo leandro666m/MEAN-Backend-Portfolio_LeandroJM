@@ -2,7 +2,7 @@ const express = require('express');
 const conectarDB = require('./config/db');
 const cors = require('cors');
 const { default: mongoose } = require('mongoose');
-const routes = require('./routes/persona');
+const routes = require('./routes/routerPersona');
 
 const app = express(); //* Creamos el servidor
 
